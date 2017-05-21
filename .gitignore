@@ -6,3 +6,4 @@
 .idea/workspace.xml
 lambda-pattern.iml
 *.class
+.idea/vcs.xml
