@@ -1,9 +1,6 @@
 package it.bs.pattern.factorypattern;
 
-import it.bs.pattern.factorypattern.AnimalFactory;
-import it.bs.pattern.factorypattern.Cat;
-import it.bs.pattern.factorypattern.Dog;
-import it.bs.pattern.factorypattern.LambdaAnimalFactory;
+
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -35,4 +32,6 @@ public class AnimalFactoryTest {
         assertEquals(new Dog().say(), LambdaAnimalFactory.getInstance("dog").say());
 
     }
+
+
 }
